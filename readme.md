@@ -29,7 +29,7 @@ After installation, you can use the `snow-effect` custom element in your HTML. I
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snow Effect Demo</title>
-    <script type="module" src="./snow-effect.js"></script>
+    <script type="module" src="https://unpkg.com/snow-effect"></script>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -106,7 +106,7 @@ After installation, you can use the `snow-effect` custom element in your HTML. I
 
 - `flakes`: Number of snowflakes (default: `100`)
 - `color`: Color of the snowflakes (default: `#ffffff`)
-- `speed`: Speed of falling snowflakes, with values from `1` (slow) to `10` (fast) (default: `5`)
+- `speed`: Speed of falling snowflakes, with values from `1` (slow) to `10` (fast) (default: `1`)
 
 ## Development
 
@@ -121,10 +121,5 @@ npm start
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Author
-
-Created by [le-pepe](https://github.com/le-pepe).
-
----
 
 <!-- Placeholder for logo until it is created -->
