@@ -6,7 +6,6 @@
 A web component built with StencilJS that generates falling snowflakes, providing an easy-to-use snow effect for any website.
 
 <!-- Logo Placeholder -->
-![snow-effect logo](logo-placeholder.png)
 
 ## Installation
 
