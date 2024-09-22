@@ -7,8 +7,69 @@
 
     <script type="module" src="/build/snow-effect.esm.js"></script>
     <script nomodule src="/build/snow-effect.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      form {
+        /*margin-bottom: 20px;*/
+      }
+
+      label {
+        margin-right: 10px;
+      }
+
+      button {
+        padding: 10px 15px;
+        background-color: #61dafb;
+        color: #282c34;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #21a1f1;
+      }
+    </style>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <snow-effect id="snow"></snow-effect>
+    <form id="controls">
+      <div>
+        <label for="flakes">Flakes quantity:</label>
+        <input type="number" id="flakes" name="flakes" min="1" max="500" value="100" />
+      </div>
+      <div>
+        <label for="color">Flakes color:</label>
+        <input type="color" id="color" name="color" value="#ffffff" />
+      </div>
+      <div>
+        <label for="speed">Flakes speed:</label>
+        <input type="range" id="speed" name="speed" min="1" max="10" value="1" />
+      </div>
+      <button type="button" id="apply">Apply Changes</button>
+    </form>
+    <script>
+      const snow = document.querySelector('#snow');
+      document.getElementById('apply').addEventListener('click', () => {
+        const flakes = document.getElementById('flakes').value;
+        const color = document.getElementById('color').value;
+        const speed = document.getElementById('speed').value;
+
+        snow.setAttribute('flakes', flakes);
+        snow.setAttribute('color', color);
+        snow.setAttribute('speed', speed);
+      });
+    </script>
   </body>
 </html>

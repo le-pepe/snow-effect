@@ -1,5 +1,6 @@
 {
   "name": "snow-effect",
+  "private": "true",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
@@ -13,9 +14,9 @@
       "import": "./dist/snow-effect/snow-effect.esm.js",
       "require": "./dist/snow-effect/snow-effect.cjs.js"
     },
-    "./my-component": {
-      "import": "./dist/components/my-component.js",
-      "types": "./dist/components/my-component.d.ts"
+    "./snow-effect": {
+      "import": "./dist/components/snow-effect.js",
+      "types": "./dist/components/snow-effect.d.ts"
     },
     "./loader": {
       "import": "./loader/index.js",

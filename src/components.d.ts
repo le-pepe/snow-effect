@@ -6,56 +6,38 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface SnowEffect {
+        "color": string;
+        "flakes": number;
+        "speed": number;
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLSnowEffectElement extends Components.SnowEffect, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLSnowEffectElement: {
+        prototype: HTMLSnowEffectElement;
+        new (): HTMLSnowEffectElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "snow-effect": HTMLSnowEffectElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface SnowEffect {
+        "color"?: string;
+        "flakes"?: number;
+        "speed"?: number;
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "snow-effect": SnowEffect;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "snow-effect": LocalJSX.SnowEffect & JSXBase.HTMLAttributes<HTMLSnowEffectElement>;
         }
     }
 }
