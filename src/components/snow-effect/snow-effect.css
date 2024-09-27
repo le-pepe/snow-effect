@@ -1,3 +1,7 @@
+:host {
+  --z-index: 10000;
+}
+
 canvas {
   position: absolute;
   top: 0;
@@ -5,4 +9,5 @@ canvas {
   width: 100%;
   height: 100%;
   pointer-events: none;
+  z-index: var(--z-index);
 }

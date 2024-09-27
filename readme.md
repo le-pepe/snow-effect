@@ -7,17 +7,21 @@ A web component built with StencilJS that generates falling snowflakes, providin
 
 <!-- Logo Placeholder -->
 
-## Installation
+[//]: # (## Installation)
 
-To install `snow-effect`, use npm:
+[//]: # ()
+[//]: # (To install `snow-effect`, use npm:)
 
-```bash
-npm install snow-effect
-```
+[//]: # ()
+[//]: # (```bash)
+
+[//]: # (npm install snow-effect)
+
+[//]: # (```)
 
 ## Usage
 
-After installation, you can use the `snow-effect` custom element in your HTML. It allows customization of the quantity of snowflakes, color, and speed.
+You can use the `snow-effect` custom element in your HTML. It allows customization of the quantity of snowflakes, color, and speed.
 
 ### Example
 
@@ -119,6 +123,12 @@ npm start
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## TODO
+
+- [ ] Get a logo
+- [ ] Support for node module
+- [ ] Add frameworks wrapper (React, Angular, Vue)
 
 
 <!-- Placeholder for logo until it is created -->
