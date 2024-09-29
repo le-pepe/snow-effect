@@ -1,5 +1,5 @@
 :host {
-  --zindex: 10000;
+  --zindex: 9999;
 }
 
 canvas {
