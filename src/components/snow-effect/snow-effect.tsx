@@ -1,4 +1,4 @@
-import { Component, Prop, h, Watch } from '@stencil/core';
+import {Component, Prop, h, Watch, Host} from '@stencil/core';
 
 @Component({
   tag: 'snow-effect',
@@ -17,7 +17,9 @@ export class SnowEffect {
   private snowflakes: { color: string; speedY: number; speedX: number; x: number; y: number; radius: number }[];
 
   render() {
-    return <canvas ref={el => this.canvas = el}></canvas>;
+    return <Host>
+      <canvas ref={el => this.canvas = el}></canvas>
+    </Host>;
   }
 
   @Watch('flakes')
