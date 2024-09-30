@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.7
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.6...v0.1.7)
+
+### 🎨 Styles
+
+- **snow-effect.css:** Change canvas position from absolute to fixed for better layout consistency ([b56a0cf](https://github.com/le-pepe/snow-effect/commit/b56a0cf))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.6
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.5...v0.1.6)
