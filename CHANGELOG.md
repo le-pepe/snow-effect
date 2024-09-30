@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.4
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.3...v0.1.4)
+
+### 🚀 Enhancements
+
+- **stencil.config.ts:** Add React output target to enable React component generation from Stencil components ([026105e](https://github.com/le-pepe/snow-effect/commit/026105e))
+- **package.json:** Add @stencil/react-output-target as a dev dependency to support React output generation in Stencil projects ([c9a1d45](https://github.com/le-pepe/snow-effect/commit/c9a1d45))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.3
 
 
