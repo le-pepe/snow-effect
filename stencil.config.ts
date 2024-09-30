@@ -1,5 +1,6 @@
 import { Config } from '@stencil/core';
 import { vueOutputTarget } from '@stencil/vue-output-target';
+import {reactOutputTarget} from "@stencil/react-output-target";
 
 export const config: Config = {
   namespace: 'snow-effect',
@@ -23,6 +24,9 @@ export const config: Config = {
     vueOutputTarget({
       componentCorePackage: 'snow-effect',
       proxiesFile: '../snow-effect-vue/lib/components.ts',
+    }),
+    reactOutputTarget({
+      outDir: '../snow-effect-react/lib/components/stencil-generated/',
     })
   ],
   testing: {
