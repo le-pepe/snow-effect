@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.5...v0.1.6)
+
+### 🎨 Styles
+
+- **snow-effect.css:** Update canvas height to 100vh for better full-screen effect and remove unnecessary host styles ([102f26e](https://github.com/le-pepe/snow-effect/commit/102f26e))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.5
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.4...v0.1.5)
