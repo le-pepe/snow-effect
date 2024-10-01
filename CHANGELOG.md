@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.8
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.7...v0.1.8)
+
+### 📖 Documentation
+
+- **readme.md:** Update README to include demo link and badge information for npm version, downloads, and license to enhance visibility and accessibility of project information ([810af6a](https://github.com/le-pepe/snow-effect/commit/810af6a))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.7
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.6...v0.1.7)
