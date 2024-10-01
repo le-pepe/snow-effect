@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.9
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.8...v0.1.9)
+
+### 🏡 Chore
+
+- **package.json:** Add author and homepage fields to package.json for better project metadata ([5a00f25](https://github.com/le-pepe/snow-effect/commit/5a00f25))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.8
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.7...v0.1.8)
