@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.13
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.12...v0.1.13)
+
+### 📖 Documentation
+
+- **readme): update package name references to include scope @le-pepe for clarity and consistency docs(readme): change image syntax for logo to improve compatibility across markdown renderers docs(readme:** Mark completed tasks in TODO list for better project tracking ([dc4dbaa](https://github.com/le-pepe/snow-effect/commit/dc4dbaa))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.12
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.11...v0.1.12)
