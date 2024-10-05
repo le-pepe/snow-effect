@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.10
+
+[compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.9...v0.1.10)
+
+### 🚀 Enhancements
+
+- **readme): add logo image and update README to include it for better branding feat(logo-light.svg:** Add SVG logo for the snow effect component to enhance visual identity ([977a408](https://github.com/le-pepe/snow-effect/commit/977a408))
+
+### ❤️ Contributors
+
+- LePepe ([@le-pepe](http://github.com/le-pepe))
+
 ## v0.1.9
 
 [compare changes](https://github.com/le-pepe/snow-effect/compare/v0.1.8...v0.1.9)

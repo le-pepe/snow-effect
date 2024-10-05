@@ -1,6 +1,6 @@
 {
   "name": "snow-effect",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A web component built with StencilJS that generates falling snowflakes, providing an easy-to-use snow effect for any website.",
   "author": "LePepe <hola@lepepe.dev>",
   "homepage": "https://snoweffect.xyz",
